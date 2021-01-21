@@ -49,10 +49,10 @@ dag = DAG(
 
 # Authenticating and applying the search parameters using (Countries: Benin as low happiness and USA as high happiness)
 def twitterAuth(**context):
-    API_key = 'ng8vy4JXVuRPyuwJgSbvgNlkV'
-    API_secret = 'etwrhVe8oliy3lvfEqgAB2KnhCvAqAhhQ8RDiJCx80LjLdJsbG'
-    access_token_secret = 'ASNAvCh8OjaikP1AFoxTJsGYROYm5tVpgSsd5HbOrEMxx'
-    access_token = '861986246-rlMFxsrCECLefntFr5jP6SNpR7veeuAid05qwJCP'
+    API_key = ****************************************
+    API_secret = ****************************************
+    access_token_secret = ****************************************
+    access_token = ****************************************
     df = ['USA','Benin']
     try:
         auth = OAuthHandler(API_key,API_secret)
