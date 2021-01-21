@@ -1,5 +1,5 @@
 # CSEN1095-W20-Project
-
+- Applying Data Analysis , ETL Pipelines , Twitter Scrapping and Sentiment Analysis
 # Imports:
 
 - numpy
