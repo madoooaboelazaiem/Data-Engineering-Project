@@ -24,7 +24,8 @@
 - Generating a new column (Obesity_Indicator) which is calculated using the BMI that would indicate the avg obesity for countries that would answer some questions when combined with other columns such as (Population/Area , Income , GDP) and show us a correlation of whether these affect the obesity which would then increase life expectancy and happiness or not.
 - Applied one hot encoding to Subregion and Region that would inturn ease the machine learning process and help us retrieve the data faster answering the questions we further need to answer.
 
-# Airflow:
+# ETL Pipeline
+## Airflow:
 ### Milestone3:
 - The dag file (sentimentAnalysisDaily.py) along with the data with timestamps located in the folder (data) and the file All_integrated.csv where used in Milestone 3 where the timestamps indicating the days the dag kept running and collecting tweets at, and the ipynb file (Milestone3Scrapers) was used with the All_integrated csv file to compare between the output of the sentiment analysis and the original data of (USA and Benin) as those were the countries (High , Low) used in the analysis.
 
